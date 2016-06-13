@@ -26,12 +26,17 @@ module Jekyll
           dir = dir.chomp('/') + '/' + config['destination'].reverse.chomp('/').reverse.chomp('/')
         end
 
+        has_dir_separator = input.start_with?('/')
+
+        input = input.reverse.chomp('/').reverse.chomp('/')
+
         # check the file exists so we can actually get the modified time
         if File.file?(dir + '/' + input)
           file = input.split('.')
           ext = file.pop
           time = File.mtime(dir + '/' + input).to_i
-          file.join('.') + '.' + time.to_s + ".#{ext}"
+          input = file.join('.') + '.' + time.to_s + ".#{ext}"
+          has_dir_separator ? '/' + input : input
         else
           input
         end
