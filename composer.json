@@ -1,6 +1,9 @@
 {
   "name": "milkyway-multimedia/2.x-static-plugins",
   "description": "Plugins for jekyll used across 2.x-static sites",
+  "require": {
+    "composer/installers": "~1"
+  },
   "extra"             : {
     "branch-alias": {
       "dev-master": "0.0.1.x-dev"

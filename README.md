@@ -18,8 +18,13 @@ You can learn to use them by opening the ruby plugins and reading the comments.
 Add the following to your `composer.json` file.
 
 ```
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:milkyway-multimedia/2.x-static-plugins.git"
+    }
+  ],
   "require":{
-    "mnsami/composer-custom-directory-installer": "~1",
     "milkyway-multimedia/2.x-static-plugins": "*"
   }
 ```
@@ -27,7 +32,7 @@ Add the following to your `composer.json` file.
 In your `extra` section, add the package to the source/_plugins directory of your jekyll site.
 
 ```
-  "extra":{
+  "extra": {
     "installer-paths": [
        "./src/_plugins/{$name}": ["milkyway-multimedia/2.x-static-plugins"]
     ]
