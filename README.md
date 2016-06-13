@@ -20,8 +20,8 @@ Add the following to your `composer.json` file.
 ```
   "repositories": [
     {
-      "type": "vcs",
-      "url": "git@bitbucket.org:milkyway-multimedia/2.x-static-plugins.git"
+      "type": "git",
+      "url": "https://milkyway-multimedia@bitbucket.org/milkyway-multimedia/2.x-static-plugins.git"
     }
   ],
   "require":{
