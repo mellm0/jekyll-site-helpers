@@ -25,7 +25,7 @@ Add the following to your `composer.json` file.
     }
   ],
   "require":{
-    "milkyway-multimedia/2.x-static-plugins": "*"
+    "milkyway-multimedia/2.x-static-plugins": "dev-master"
   }
 ```
 
