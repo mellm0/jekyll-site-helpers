@@ -1,8 +1,9 @@
 {
   "name": "milkyway-multimedia/2.x-static-plugins",
   "description": "Plugins for jekyll used across 2.x-static sites",
+  "type": "silverstripe-module",
   "require": {
-    "oomphinc/composer-installers-extender": "~1"
+    "composer/installers": "~1"
   },
   "extra"             : {
     "branch-alias": {
