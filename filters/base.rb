@@ -18,6 +18,10 @@ module Jekyll
           input.gsub('{{ base }}', url.map! { |i| '..' }.join('/'))
         end
 
+      # ignore if starts with double slash (absolute url with unknown protocol)
+      elsif input.start_with?('//')
+        input
+
        # Or prefix an absolute relative
       elsif input.start_with?('/')
         url = @context.registers[:page]['url'].chomp('/').reverse.chomp('/').reverse.split('/')
