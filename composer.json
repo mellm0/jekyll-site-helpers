@@ -1,5 +1,5 @@
 {
-  "name": "milkyway-multimedia/2.x-static-plugins",
+  "name": "mi3ll/jekyll-site-helpers",
   "description": "Filters for jekyll to use on websites",
   "type": "project",
   "require": {
