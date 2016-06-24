@@ -1,7 +1,7 @@
 {
   "name": "milkyway-multimedia/2.x-static-plugins",
   "description": "Plugins for jekyll used across 2.x-static sites",
-  "type": "silverstripe-module",
+  "type": "project",
   "require": {
     "composer/installers": "~1"
   },

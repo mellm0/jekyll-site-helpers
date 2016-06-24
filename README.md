@@ -1,7 +1,5 @@
-2.x-static-plugins
-==================
-These are plugins for the 2.x-static website builder.
-
+jekyll-site-helpers
+===================
 ### Filters
 Filters in jekyll are used on jekyll tags, such as: {{ '/image/test.jpg' | **cachebuster** | **relativity** }}.
 
@@ -18,14 +16,8 @@ You can learn to use them by opening the ruby plugins and reading the comments.
 Add the following to your `composer.json` file.
 
 ```
-  "repositories": [
-    {
-      "type": "git",
-      "url": "https://milkyway-multimedia@bitbucket.org/milkyway-multimedia/2.x-static-plugins.git"
-    }
-  ],
   "require":{
-    "milkyway-multimedia/2.x-static-plugins": "dev-master"
+    "mi3ll/jekyll-site-helpers": "dev-master"
   }
 ```
 
@@ -34,7 +26,7 @@ In your `extra` section, add the package to the source/_plugins directory of you
 ```
   "extra": {
     "installer-paths": [
-       "./src/_plugins/{$name}": ["milkyway-multimedia/2.x-static-plugins"]
+       "./src/_plugins/{$name}": ["mi3ll/jekyll-site-helpers"]
     ]
   }
 ```
@@ -46,7 +38,6 @@ In your `extra` section, add the package to the source/_plugins directory of you
 * 2016
 
 ### Contact
-#### Milkyway Multimedia
-* Homepage: http://milkywaymultimedia.com.au
-* E-mail: mell@milkywaymultimedia.com.au
-* Twitter: [@mwmdesign](https://twitter.com/mwmdesign "mwmdesign on twitter")
+#### Mellisa Hankins
+* E-mail: mellisa.hankins@me.com
+* Twitter: [@mi3ll](https://twitter.com/mi3ll "mi3ll on twitter")
