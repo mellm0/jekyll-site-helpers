@@ -1,7 +1,7 @@
 {
   "name": "mi3ll/jekyll-site-helpers",
   "description": "Filters for jekyll to use on websites",
-  "type": "library",
+  "type": "laravel-library",
   "require": {
     "composer/installers": "~1"
   },
