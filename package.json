@@ -4,5 +4,5 @@
   "description": "Add cachebusting and relative filters to a jekyll site",
   "keywords": ["jekyll"],
   "repository": "https://github.com/mi3ll/jekyll-site-helpers",
-  "author": "Mellisa Hankins <mellisa.hankins@me.com>",
+  "author": "Mellisa Hankins <mellisa.hankins@me.com>"
 }
