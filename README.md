@@ -32,7 +32,7 @@ In your `extra` section, add the package to the source/_plugins directory of you
 ```
 
 ### License
-* Commercial
+* MIT
 
 ### Version
 * 2016
